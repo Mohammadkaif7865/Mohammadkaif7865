@@ -1,12 +1,224 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <style>
+        body {
+            background-color: cyan;
+        }
+
+        .head {
+            display: inline-block;
+            padding: 0.5em;
+            margin: 0.5em;
+            /* font-size: 15em; */
+            font-family: 'Courier New', Courier, monospace;
+        }
+
+        header {
+            background-image: linear-gradient(to right, cyan, rgb(0, 255, 38));
+            /* background-image: linear-gradient(to bottom right, rgb(255, 255, 255), rgb(0, 255, 51)); */
+            border-radius: 45px
+        }
+
+        h1 {
+            font-size: 2.5em;
+            font-family: 'Courier New', Courier, monospace;
+            /* color: black; */
+            text-shadow: 5px 5px white;
+        }
+
+        h2 {
+            text-shadow: 5px 5px white;
+            font-family: 'Courier New', Courier, monospace;
+            font-size: 2em;
+        }
+
+        .aboutme {
+            border-radius: 45px;
+            text-align: center;
+            font-family: 'Courier New', Courier, monospace;
+            padding: 0.5em;
+            margin: 0.5em;
+            background-image: linear-gradient(to right, cyan, rgb(0, 255, 38));
+        }
+
+
+        #profile-img {
+            width: 4px;
+        }
+
+        .skills {
+            display: inline-block;
+            text-align: center;
+
+            background-image: linear-gradient(to right, cyan, rgb(0, 255, 38));
+            border-radius: 45px;
+        }
+
+        .skill-logo {
+            width: 11%;
+            /* height: 90px; */
+            padding: 0.5em;
+            margin: 0.5em;
+        }
+
+        .hobbies {
+            /* display: inline-block; */
+            text-align: center;
+
+            border-radius: 45px;
+            background-image: linear-gradient(to right, cyan, rgb(0, 255, 38));
+        }
+
+        .hobbies-list {
+            padding: 0.5em;
+            font-family: 'Courier New', Courier, monospace;
+            margin: 0.5em;
+            display: inline-block;
+            font-size: 3vw;
+
+        }
+
+        .hobbies-img {
+            display: inline-block;
+
+        }
+
+        .i-hobbies {
+            width: 15%;
+            /* height: 90px; */
+            padding: 0.7em;
+            margin: 0.7em;
+            border-radius: 45px
+        }
+
+        #profile {
+            width: 20%;
+            border: 9px double rgb(0, 149, 255);
+            border-radius: 45px;
+            /* margin-top: 34px; */
+            box-shadow: 5px 10px #09988e;
+        }
+
+        .my-address {
+            text-align: center;
+            border-radius: 45px;
+            background-image: linear-gradient(to right, cyan, rgb(0, 255, 38));
+        }
+
+        .foot-ele {
+            font-family: 'Courier New', Courier, monospace;
+        }
+
+        footer {
+            display: inline-block;
+            color: white;
+            text-align: center;
+            background-color: black;
+        }
+
+        .foot-img {
+            width: 5%;
+            /* height: 90px; */
+            padding: 0.7em;
+            margin: 0.7em;
+            border-radius: 45px
+        }
+    </style>
 </head>
+
 <body>
-        
+    <header>
+        <div class="top" id="headname">
+            <img src="https://i.ibb.co/rGx7RhR/My-project.jpg" id="profile" class="head" title="profile" alt="profile">
+            <h1 class="head" id="profilename">Mohammad kaif
+            </h1>
+            <span class="head">
+                <ul>
+                    <li>Guru tegh bahadur insitute of technology (2017-2021)</li>
+                    <li>BTECH - Information Technology</li>
+                    <li>CGPA : 7.8</li>
+                    <li>12<sup>th</sup> : Rao mohar singh memorial senior secondary school (80%)</li>
+                    <li>10<sup>th</sup> : Dev public school (98%)</li>
+                    <li>D.O.B : 05/11/1997</li>
+                </ul>
+            </span>
+
+        </div>
+    </header>
+    <hr>
+    <main>
+        <div class="aboutme">
+            <h2>About me</h2>
+            <p class="about">
+                "Hi, my self Mohammad kaif . I had completed my btech from guru tegh bahadur insitute of technology .
+                All about my education have mentioned above. I am a software enthusiast and (MERN) full-stack web
+                developer.I love to learn new technology, and also have decent knowledge of C++,C and DSA."
+            <pre>
+                    My strength : My determination
+                    My weakness : Extremeness
+                </pre>
+            </p>
+        </div>
+        <div class="skills">
+            <h2>Skills</h2>
+            <img src="https://i.ibb.co/vHrrh4P/html.png" alt="html" title="html" class="skill-logo">
+            <img src="https://i.ibb.co/DtRRvcj/css.png" alt="css" title="css" class="skill-logo">
+            <img src="https://i.ibb.co/DQ1WCTQ/js.png" alt="javascript" title="javascript" class="skill-logo">
+            <img src="https://i.ibb.co/xMXctLd/react.png" alt="react" title="react" class="skill-logo">
+            <img src="https://i.ibb.co/gjfKm7Q/nodejs.png" alt="nodejs" title="nodejs" class="skill-logo">
+            <img src="https://i.ibb.co/3MNpq6t/mongodb.png" alt="mongodb" title="mongodb" class="skill-logo">
+            <img src="https://i.ibb.co/X2H5Qh7/expressjs.png" alt="Express-js" title="Express-js" class="skill-logo">
+            <img src="https://i.ibb.co/k8fXBNx/c.png" alt="c++" title="c++" class="skill-logo">
+            <img src="https://i.ibb.co/hHFSXHg/c.png" alt="c" title="c" class="skill-logo">
+        </div>
+        <div class="hobbies">
+            <h2>Hobbies</h2>
+
+            <ol>
+                <li class="hobbies-list">Gyming</li>
+                <li class="hobbies-list">Gaming</li>
+                <li class="hobbies-list">Sports</li>
+                <li class="hobbies-list">Coding</li>
+                <li class="hobbies-list">traveling</li>
+            </ol>
+            <div class="hobbies-img">
+                <img src="https://i.ibb.co/hX6WVgm/gym.png" alt="Gyming" title="Gyming" class="i-hobbies">
+                <img src="https://i.ibb.co/CJy9D3M/gaming.png" alt="gaming" title="gaming" class="i-hobbies">
+                <img src="https://i.ibb.co/9c84NTK/sports.png" alt="sports" title="Sports" class="i-hobbies">
+                <img src="https://i.ibb.co/4YXSN33/coding.jpg" alt="codings" title="Coding" class="i-hobbies">
+                <img src="https://i.ibb.co/544CGc0/travel.png" alt="traveling" title="traveling" class="i-hobbies">
+            </div>
+
+        </div>
+        <div class="my-address">
+            <h2>
+                My Location
+            </h2>
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14007.635348138501!2d76.95111272534892!3d28.632494217302455!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390d0e4df36aeb0f%3A0x14ca1b4b544523e!2sNaveen%20Palace%2C%20Jharoda%20Kalan%2C%20Delhi!5e0!3m2!1sen!2sin!4v1645689456510!5m2!1sen!2sin"
+                width="80%" height="600px" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+
+        </div>
+    </main>
+    <footer>
+        <div class="foot-ele">
+            <p>
+                <sup>&copy;</sup>Copyright 2022, <sup>&#xae;</sup>All Rights Reserved. @ Mohammad kaif
+            </p>
+        </div>
+        <div class="foot-ele">
+            <img src="https://i.ibb.co/rbsPKyF/gmail.png" alt="gmail" title="gmail" class="foot-img">
+            <img src="https://i.ibb.co/QXqLTyr/facebook.png" alt="facebook" title="facebook" class="foot-img">
+            <img src="https://i.ibb.co/ypMfSjc/insta.png" alt="insta" title="insta" class="foot-img">
+            <img src="https://i.ibb.co/M7HgjYp/linkedin.png" alt="linkedin" title="linkedin" class="foot-img">
+        </div>
+    </footer>
 </body>
+
 </html>
