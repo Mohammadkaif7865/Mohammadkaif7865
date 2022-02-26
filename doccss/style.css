@@ -84,7 +84,18 @@
             border: 9px double rgb(0, 149, 255);
             border-radius: 45px;
             /* margin-top: 34px; */
-            box-shadow: 5px 10px #09988e;
+            /* box-shadow: 5px 10px #483f3f; */
+        }
+        
+        #profile:hover {
+            width: 20%;
+            border: 9px double rgb(0, 149, 255);
+            border-radius: 45px;
+            width: 25%;
+            transform: rotate(360deg);
+            transition: width 2s, height 2s, transform 2s;
+            /* margin-top: 34px; */
+            box-shadow: 10px 10px 10px #483f3f;
         }
         
         .my-address {
@@ -116,14 +127,18 @@
             /* height: 90px; */
             padding: 0.5em;
             margin: 0.5em;
-            box-shadow: 5px 10px #050505;
+            box-shadow: 10px 10px 5px #483f3f;
+            transform: rotate(360deg);
+            transition: width 2s, height 2s, transform 2s;
         }
         
         .i-hobbies:hover {
-            box-shadow: 5px 10px #000000;
+            box-shadow: 10px 10px 5px #483f3f;
             width: 20%;
             /* height: 90px; */
             padding: 0.7em;
             margin: 0.7em;
             border-radius: 45px;
+            transform: rotate(360deg);
+            transition: width 2s, height 2s, transform 2s;
         }
