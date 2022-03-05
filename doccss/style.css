@@ -23,6 +23,10 @@
             text-shadow: 5px 5px white;
         }
         
+        a {
+            text-decoration: none;
+        }
+        
         h2 {
             text-shadow: 5px 5px white;
             font-family: 'Courier New', Courier, monospace;
@@ -88,7 +92,7 @@
         }
         
         #profile:hover {
-            width: 20%;
+            width: 30%;
             border: 9px double rgb(0, 149, 255);
             border-radius: 45px;
             width: 25%;
