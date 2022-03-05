@@ -16,6 +16,112 @@
             border-radius: 45px
         }
         
+        .container-pendu {
+            height: 40vw;
+            width: 40vw;
+            /* background-image: linear-gradient(to bottom, rgb(6, 224, 248), rgb(1, 162, 6)); */
+            display: flex;
+            justify-content: center;
+            align-items: flex-start;
+        }
+        
+        .base {
+            width: 7%;
+            height: 7%;
+            background-color: rgb(255, 15, 15);
+            border-radius: 0% 0% 50% 50%;
+            border-bottom: 2px solid transparent;
+            position: relative;
+            left: 40%;
+            border: 2px solid rgba(255, 255, 255, .5);
+        }
+        
+        .thread {
+            width: 0.25%;
+            height: 39%;
+            top: 2.5%;
+            left: 32%;
+            transform-origin: 0% 0%;
+            position: relative;
+            background-color: black;
+            animation: rota 2s ease-in-out infinite;
+        }
+        
+        .bob {
+            width: 7.5%;
+            height: 7.5%;
+            left: 28.25%;
+            top: 39%;
+            z-index: 3;
+            position: relative;
+            background: radial-gradient(circle at 70% 35%, white, #848584 30%, #000000 50%);
+            border-radius: 50%;
+            transform-origin: 0% -450%;
+            animation: rota2 2s ease-in-out alternate infinite;
+        }
+        
+        .shadow {
+            width: 8%;
+            height: 4%;
+            background: rgba(0, 0, 0, 0.2);
+            border-radius: 50%;
+            position: relative;
+            top: 50%;
+            left: -15%;
+            margin: 50px auto 0;
+            animation: moveShade 1s ease-in-out alternate infinite;
+        }
+        
+        @keyframes rota {
+            0%,
+            100% {
+                background: radial-gradient(circle at 70% 35%, white, #878787 30%, #909090 50%);
+                transform: rotate(45deg);
+            }
+            50% {
+                background: radial-gradient(circle at 30% 65%, white, #80847e 30%, #6e6e6e 50%);
+                transform: rotate(-45deg);
+            }
+        }
+        
+        @keyframes rota2 {
+            0%,
+            100% {
+                transform: rotate(48deg);
+            }
+            50% {
+                background: radial-gradient(circle at 30% 35%, white, #848584 30%, #000000 50%);
+                transform: rotate(-45deg);
+                /* background-color: black; */
+            }
+        }
+        
+        .hing {
+            width: 4%;
+            height: 4%;
+            background: radial-gradient(circle at 70% 35%, white, #0f0f0f 30%, #070707 50%);
+            z-index: 4;
+            position: relative;
+            top: 2%;
+            left: 34.25%;
+            border-radius: 50%;
+            /* background-color: black; */
+        }
+        
+        @keyframes moveShade {
+            0% {
+                transform: translateX(-600%) scale(1.8, .5);
+                filter: blur(3vw);
+            }
+            50% {
+                filter: blur(0.45vw);
+            }
+            100% {
+                transform: translateX(600%) scale(1.8, .5);
+                filter: blur(3vw);
+            }
+        }
+        
         h1 {
             font-size: 2.5em;
             font-family: 'Courier New', Courier, monospace;
@@ -36,6 +142,10 @@
         .aboutme {
             border-radius: 45px;
             text-align: center;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
             font-family: 'Courier New', Courier, monospace;
             padding: 0.5em;
             margin: 0.5em;
