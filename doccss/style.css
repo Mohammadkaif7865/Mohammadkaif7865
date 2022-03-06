@@ -36,6 +36,10 @@
             border: 2px solid rgba(255, 255, 255, .5);
         }
         
+        .template span li {
+            text-align: left;
+        }
+        
         .template {
             font-family: 'Courier New', Courier, monospace;
             display: flex;
