@@ -1,8 +1,8 @@
-       * {
+       /* * {
            box-sizing: border-box;
            margin: 0;
            padding: 0;
-       }
+       } */
        
        body {
            background-image: linear-gradient(to right, cyan, yellow);
@@ -42,7 +42,7 @@
            border: 2px solid rgba(255, 255, 255, .5);
        }
        
-       .template span li {
+       .template div li {
            text-align: left;
        }
        
