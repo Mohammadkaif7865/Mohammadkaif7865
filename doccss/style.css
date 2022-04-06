@@ -4,9 +4,7 @@
            padding: 0;
        } */
        
-       body {
-           background-image: linear-gradient(to right, cyan, yellow);
-       }
+       body {}
        
        .head {
            display: inline-block;
@@ -53,9 +51,7 @@
            justify-content: center;
            align-content: center;
            text-align: center;
-           border-top: 5px solid rgb(71, 47, 255);
-           border-bottom: 5px solid rgb(255, 0, 0);
-           border-radius: 20%;
+           border-bottom: 2px solid grey;
            position: relative;
            padding: 3%;
            margin-top: 1%;
