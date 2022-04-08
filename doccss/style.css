@@ -16,7 +16,7 @@ a {
 }
 
 nav {
-    height: 8vh;
+    height: 60px;
     display: flex;
     flex-direction: row;
     justify-content: flex-start;
