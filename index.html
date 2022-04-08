@@ -17,25 +17,43 @@
 
 <body>
     <header>
-        <div class="nav-tt">
+        <nav>
+
+            <button class="btn btn-primary" style="background: white; border: 1px solid white; color:black;" type="button" data-bs-toggle="offcanvas" data-bs-target="#demo">
+                 <i class="fa fa-bars" aria-hidden="true" style="font-size:3vw;"></i>
+            </button>
             <ul>
-                <li>Home</li>
-                <li>About</li>
-                <li>Skills</li>
-                <li>Feedbacks</li>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Feedback</a></li>
+                <li><a href="#">Contacts</a></li>
+                <li><a href="#">Work with me</a></li>
             </ul>
-        </div>
-        <div class="ff-hh">
-            <div class="tape-col">
-                <img src="https://i.ibb.co/rGx7RhR/My-project.jpg" id="profile" title="profile" alt="profile">
+            <div class="offcanvas offcanvas-start" id="demo">
+                <div class="offcanvas-header">
+                    <h1 class="offcanvas-title">Heading</h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="offcanvas"></button>
+                </div>
+                <div class="offcanvas-body">
+                    <p>Some text lorem ipsum.</p>
+                    <p>Some text lorem ipsum.</p>
+                    <p>Some text lorem ipsum.</p>
+                    <button class="btn btn-secondary" type="button">A Button</button>
+                </div>
             </div>
-            <div class="tape-row">
-                <h1>Mohammad Kaif</h1>
-            </div>
-        </div>
+
+        </nav>
     </header>
 
+
     <main>
+        <div class="profile-me">
+            <img src="https://i.ibb.co/d6FJQQx/tt-tt.webp" id="lol-l" alt="profile">
+            <div class="profile-content">
+                <img src="https://i.ibb.co/rGx7RhR/My-project.jpg" id="profile" title="profile" alt="profile">
+                <h1 style="margin-left: 20px;">Mohammad Kaif</h1>
+            </div>
+        </div>
         <h2 style="text-align:center;">About me
 
         </h2>

@@ -15,57 +15,70 @@ a {
     text-decoration: none !important;
 }
 
-.nav-tt {
+nav {
     height: 60px;
-    background-color: rgb(177, 165, 165);
-    color: white;
-    position: fixed;
-    z-index: 999999;
-    width: 100%;
-}
-
-.nav-tt ul li {
-    display: inline-block;
-    margin: 20px;
-}
-
-.ff-hh {
-    height: 60vh;
-    position: relative;
-    top: 70px;
-    color: white;
-}
-
-.tape-col {
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    left: 10vw;
-    width: 30vh;
-    z-index: 3;
-}
-
-#profile {
-    height: 50%;
-    width: 100%;
-    margin: auto;
-    position: sticky;
-    top: 0;
-}
-
-.tape-row {
-    position: absolute;
-    top: 10vh;
-    bottom: 0;
-    left: 0;
-    height: 20vh;
-    width: 100%;
-    background: rgb(177, 165, 165);
-    z-index: 2;
     display: flex;
-    justify-content: flex-end;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    background-color: white;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    z-index: 9999999;
+}
+
+nav ul {
+    width: 80%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    align-items: center;
+}
+
+nav ul li {
+    margin-right: 20px;
+    margin-top: 20px;
+    font-size: 2vw;
+}
+
+nav ul li a {
+    color: black;
+}
+
+.profile-me {
+    width: 100%;
+    height: 40vw;
+    position: relative;
+    color: white;
+}
+
+#lol-l {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.profile-content {
+    display: flex;
     align-items: flex-end;
-    padding: 2em;
+    justify-content: left;
+    width: 100%;
+    position: relative;
+    top: 10vw;
+    left: 0px;
+    height: 30vw;
+}
+
+.profile-content img {
+    width: 30%;
+    height: 100%;
+    border-radius: 50%;
+    border: 7px groove green;
 }
 
 .template div li {
@@ -113,12 +126,13 @@ h2 {
     padding: 0.5em;
     margin: 0.5em;
     display: inline-block;
-    font-size: 2vw;
+    font-size: 3vw;
 }
 
 .i-hobbies {
     width: 15%;
-    /* height: 90px; */
+    min-width: 100px;
+    min-height: 100px;
     padding: 0.7em;
     margin: 0.7em;
     border-radius: 45px
@@ -134,13 +148,4 @@ footer {
     width: 5%;
     margin: 0.7em;
     border-radius: 45px
-}
-
-@media screen and (max-width: 767px) {
-    .tape-col {
-        position: absolute;
-        top: 0;
-        bottom: 0;
-        left: 0;
-    }
 }
