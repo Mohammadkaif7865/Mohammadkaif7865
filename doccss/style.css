@@ -17,7 +17,7 @@ a {
 
 .hi-ask {
     position: fixed;
-    bottom: 10vh;
+    bottom: 50vh;
     right: 10px;
     z-index: 99999;
     width: 12vh;
