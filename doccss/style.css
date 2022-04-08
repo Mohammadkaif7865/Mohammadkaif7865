@@ -15,6 +15,46 @@ a {
     text-decoration: none !important;
 }
 
+.hi-ask {
+    position: fixed;
+    bottom: 10vh;
+    right: 0;
+    z-index: 99999;
+    width: 20vw;
+    height: 20vw;
+}
+
+.hi-ask img {
+    width: 50%;
+    height: 100%;
+    animation-name: ask;
+    animation-duration: infinite;
+    animation-timing-function: ease-in-out;
+}
+
+@keyframes ask {
+    0% {
+        transform: rotate(0deg);
+    }
+    25% {
+        transform: rotate(-20deg);
+    }
+    50% {
+        transform: rotate(0deg);
+    }
+    75% {
+        transform: rotate(20deg);
+    }
+    100% {
+        transform: rotate(20deg);
+    }
+}
+
+#aa-me {
+    width: 50%;
+    height: 100%;
+}
+
 nav {
     height: 60px;
     display: flex;
@@ -72,7 +112,7 @@ nav ul li a {
     position: relative;
     top: 20vw;
     left: 0px;
-    z-index: 2;
+    z-index: 3;
     height: 30vw;
 }
 
@@ -90,7 +130,7 @@ nav ul li a {
     width: 30%;
     height: 100%;
     border-radius: 50%;
-    border: 7px groove rgb(123, 237, 123);
+    border: 7px groove grey;
 }
 
 .template div li {
