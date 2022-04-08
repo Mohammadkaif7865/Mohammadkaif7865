@@ -76,11 +76,21 @@ nav ul li a {
     height: 30vw;
 }
 
+#life {
+    width: 30%;
+    height: 30%;
+    position: absolute;
+    top: 10vw;
+    right: 10vw;
+    z-index: 2;
+    height: 30vw;
+}
+
 .profile-content img {
     width: 30%;
     height: 100%;
     border-radius: 50%;
-    border: 7px groove green;
+    border: 7px groove rgb(123, 237, 123);
 }
 
 .template div li {
