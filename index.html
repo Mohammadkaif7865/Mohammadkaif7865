@@ -49,11 +49,40 @@
     <main>
         <div class="hi-ask">
             <div class="ask-some">
-                <form action="ask.js">
-                    <input type="textarea" placeholder="ask some thing">
-                    <button type="submit" class="btn btn-primary">submit</button>
-                </form>
-                <img src="https://i.ibb.co/t2650Md/hi.png" alt="me">
+                <img src="https://i.ibb.co/t2650Md/hi.png" alt="me" id="a-k-m">
+                <p>dm me<button type="button" class="btn btn-primary" id="asking" data-bs-toggle="modal" data-bs-target="#ask-lo">
+                    click here
+                </button>
+                </p>
+
+                <!-- The Modal -->
+                <div class="modal fade" id="ask-lo">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+
+                            <!-- Modal Header -->
+                            <div class="modal-header">
+                                <h4 class="modal-title">Text me here</h4>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                            </div>
+
+                            <!-- Modal body -->
+                            <div class="modal-body">
+                                <form action="ask.js">
+                                    <textarea name="question" id="my-dm" cols="30" rows="5" placeholder="type here" style="padding: 10px;"></textarea>
+                                    <button type="submit" class="btn btn-primary">send</button>
+                                </form>
+                            </div>
+
+                            <!-- Modal footer -->
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Close</button>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+
             </div>
         </div>
         <div class="profile-me">
@@ -64,7 +93,7 @@
             </div>
             <img src="https://i.ibb.co/2WYPzML/pngegg.png" id="life" alt="life">
         </div>
-        <h1 style="text-align:center;" id="about">About me
+        <h1 style="margin-top:3vh; text-align:center;" id="about">About me
 
         </h1>
         <div class="template">
@@ -73,7 +102,7 @@
                 have decent knowledge of C++,C and DSA."
             </p>
         </div>
-        <h1 style="text-align:center;" id="skills">Skills</h1>
+        <h1 style="margin-top:3vh; text-align:center;" id="skills">Skills</h1>
         <div class="template">
             <img src="https://i.ibb.co/vHrrh4P/html.png" alt="html" title="html" class="skill-logo" id="skill-logo1">
             <img src="https://i.ibb.co/DtRRvcj/css.png" alt="css" title="css" class="skill-logo" id="skill-logo2">
@@ -103,7 +132,7 @@
                 </div>
 
         </div>
-        <h1 style="text-align:center;">
+        <h1 style="margin-top:3vh; text-align:center;">
             My Location
         </h1>
         <div class="template">

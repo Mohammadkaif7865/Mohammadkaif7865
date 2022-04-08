@@ -17,36 +17,42 @@ a {
 
 .hi-ask {
     position: fixed;
-    bottom: 0;
-    right: 0;
+    bottom: 10vh;
+    right: 10px;
     z-index: 99999;
-    width: 20vw;
-    height: 20vw;
+    width: 12vh;
+    height: 12vh;
+    text-align: center;
 }
 
-.hi-ask img {
-    width: 50%;
-    height: 100%;
-    animation-name: ask;
-    animation-duration: infinite;
+#a-k-m {
+    width: 100%;
+    height: 70%;
+    animation-name: ask-me;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
     animation-timing-function: ease-in-out;
 }
 
-@keyframes ask {
+#ask-lo {
+    margin-top: 10vh;
+}
+
+@keyframes ask-me {
     0% {
         transform: rotate(0deg);
     }
     25% {
-        transform: rotate(-20deg);
+        transform: rotate(-5deg);
     }
     50% {
         transform: rotate(0deg);
     }
     75% {
-        transform: rotate(20deg);
+        transform: rotate(5deg);
     }
     100% {
-        transform: rotate(20deg);
+        transform: rotate(0deg);
     }
 }
 
