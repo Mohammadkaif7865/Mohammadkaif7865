@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <link rel="shortcut icon" href="https://i.ibb.co/PWRsJFg/favicon.png" type="image/x-icon">
+    <link rel="shortcut icon" href="https://i.ibb.co/8PFWgyV/m.png" type="image/x-icon">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="keyword" content="Mohammad kaif full stack developer,mohammad kaif full stack developer developer">
@@ -50,7 +50,7 @@
         <div class="hi-ask">
             <div class="ask-some">
                 <img src="https://i.ibb.co/t2650Md/hi.png" alt="me" id="a-k-m">
-                <p>dm me<button type="button" class="btn btn-primary" id="asking" data-bs-toggle="modal" data-bs-target="#ask-lo">
+                <p>DM me<button type="button" class="btn btn-primary" id="asking" data-bs-toggle="modal" data-bs-target="#ask-lo">
                     click here
                 </button>
                 </p>
@@ -69,7 +69,11 @@
                             <!-- Modal body -->
                             <div class="modal-body">
                                 <form action="ask.js">
-                                    <textarea name="question" id="my-dm" cols="30" rows="5" placeholder="type here" style="padding: 10px;"></textarea>
+                                    <label for="#q-ner-name">Name</label>
+                                    <input type="text" style="padding: 5px; font-size:12px; margin-top: 3px;" id="q-ner-name" placeholder="Enter your name">
+                                    <label for="#q-ner-email">E-mail</label>
+                                    <input type="text" style="padding: 5px; font-size:12px; margin-top: 3px;" id="q-ner-email" placeholder="Enter your email">
+                                    <textarea name="question" style="padding: 5px; font-size:12px; margin-top: 3px;" id="my-dm" cols="30" rows="5" placeholder="type your text here" style="padding: 10px;"></textarea>
                                     <button type="submit" class="btn btn-primary">send</button>
                                 </form>
                             </div>

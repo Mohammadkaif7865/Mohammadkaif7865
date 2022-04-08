@@ -17,12 +17,17 @@ a {
 
 .hi-ask {
     position: fixed;
-    bottom: 50vh;
+    bottom: 45vh;
     right: 10px;
     z-index: 99999;
-    width: 12vh;
-    height: 12vh;
+    width: 10vh;
+    height: 10vh;
     text-align: center;
+}
+
+#asking {
+    font-size: 12px;
+    font-family: 'Times New Roman', Times, serif;
 }
 
 #a-k-m {
@@ -54,11 +59,6 @@ a {
     100% {
         transform: rotate(0deg);
     }
-}
-
-#aa-me {
-    width: 50%;
-    height: 100%;
 }
 
 nav {
