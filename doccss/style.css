@@ -79,9 +79,27 @@ nav ul {
     width: 80%;
     height: 100%;
     display: flex;
+    position: relative;
     flex-direction: row;
     justify-content: left;
     align-items: center;
+}
+
+.s-s {
+    animation-name: slide;
+    animation-timing-function: ease-out;
+    animation-duration: 0.5s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+
+@keyframes slide {
+    from {
+        left: 30vw;
+    }
+    to {
+        left: 0;
+    }
 }
 
 nav ul li {
@@ -126,16 +144,34 @@ nav ul li a {
     width: 30%;
     height: 30%;
     position: absolute;
-    top: 10vw;
+    top: 12vw;
     right: 10vw;
     z-index: 2;
     height: 30vw;
+}
+
+.slide-down {
+    animation-name: slide-down;
+    animation-timing-function: ease-out;
+    animation-duration: 0.5s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+
+@keyframes slide-down {
+    from {
+        top: 0vw;
+    }
+    to {
+        top: 12vw;
+    }
 }
 
 .profile-content img {
     width: 30%;
     height: 100%;
     border-radius: 50%;
+    margin-left: 2vw;
     border: 7px groove grey;
 }
 
@@ -191,14 +227,15 @@ a {
     border-radius: 40px;
 }
 
-footer {
-    display: inline-block;
-    color: black;
-    text-align: center;
+.foot-ele {
+    display: flex;
+    margin: auto;
+    justify-content: center;
+    font-size: calc(5px + 1vw);
 }
 
 .foot-img {
-    width: 5%;
-    margin: 0.7em;
-    border-radius: 45px
+    width: calc(12px + 2vw);
+    height: calc(12px + 2vw);
+    margin: calc(6px + 1vw);
 }
