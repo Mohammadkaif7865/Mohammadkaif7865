@@ -122,7 +122,7 @@ nav ul {
 }
 
 #demo {
-    width: calc(100px + 30vw);
+    width: calc(100px + 40vw);
 }
 
 #rose-white a {
@@ -175,6 +175,11 @@ nav ul li a {
     left: 0px;
     z-index: 3;
     height: 30vw;
+}
+
+#me-me {
+    margin-left: 10px;
+    font-size: calc(20px + 2.5vw);
 }
 
 #life {
