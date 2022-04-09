@@ -200,6 +200,33 @@ nav ul li a {
     animation-fill-mode: forwards;
 }
 
+.slide-down-2 {
+    animation-name: slide-down-2;
+    animation-timing-function: ease-out;
+    animation-duration: 0.5s;
+    animation-iteration-count: 1;
+    animation-fill-mode: backwards;
+}
+
+#bookmark {
+    position: absolute;
+    z-index: 2;
+    width: 30vw;
+    height: 150%;
+    top: 0;
+    bottom: 0;
+    left: 2vw;
+}
+
+@keyframes slide-down-2 {
+    from {
+        top: 20vw;
+    }
+    to {
+        top: 0;
+    }
+}
+
 @keyframes slide-down {
     from {
         top: 0vw;
@@ -229,6 +256,7 @@ nav ul li a {
     text-align: center;
     border-bottom: 2px solid grey;
     position: relative;
+    z-index: 4;
     padding: 3%;
     font-size: calc(12px + 0.5vw);
     margin-top: 1%;
