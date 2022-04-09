@@ -112,11 +112,25 @@ nav ul {
 
 @keyframes slide-col {
     from {
-        top: 30vh
+        top: 30vh;
+        left: 5vw;
     }
     to {
         top: 0;
+        left: 0;
     }
+}
+
+#demo {
+    width: calc(100px + 30vw);
+}
+
+#rose-white a {
+    color: black;
+}
+
+#rose-white p {
+    border-bottom: 1px solid grey;
 }
 
 .yo-yo {
@@ -261,4 +275,27 @@ a {
     width: calc(12px + 2vw);
     height: calc(12px + 2vw);
     margin: calc(6px + 1vw);
+}
+
+#bar-nav {
+    display: none;
+}
+
+#my-name-khan {
+    display: none;
+}
+
+@media screen and (max-width: 600px) {
+    nav ul {
+        display: none;
+    }
+    #bar-nav {
+        display: block;
+    }
+    #my-name-khan {
+        display: block;
+        text-align: center;
+        width: 80%;
+        font-family: Brush Script MT, Brush Script Std, cursive;
+    }
 }

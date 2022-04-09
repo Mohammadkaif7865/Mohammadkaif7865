@@ -20,25 +20,27 @@
     <header>
         <nav>
 
-            <button class="btn btn-primary" style="background: white; border: 1px solid white; color:black;" type="button" data-bs-toggle="offcanvas" data-bs-target="#demo">
-                 <i class="fa fa-bars" aria-hidden="true" style="font-size: calc(12px + 1vw);"></i>
+            <button class="btn btn-primary" style="background: white; border: 1px solid white; color:black;" id="bar-nav" type="button" data-bs-toggle="offcanvas" data-bs-target="#demo">
+                 <i class="fa fa-bars" aria-hidden="true" style="font-size: calc(12px + 2vw);"></i>
             </button>
             <ul class="s-s">
+                <li> <i class="bi bi-house-door-fill" style="font-size: calc(12px + 2vw);"></i></li>
                 <li><a href="#">Home</a></li>
                 <li><a href="#about">About</a></li>
                 <li><a href="#">Feedback</a></li>
                 <li><a href="#contacts">Contacts</a></li>
             </ul>
-            <div class="offcanvas offcanvas-start" id="demo">
+            <h1 id="my-name-khan">Mohammad kaif</h1>
+            <div class="offcanvas offcanvas-start" data-bs-scroll="true" tabindex="-1" id="demo" aria-labelledby="offcanvasWithBothOptionsLabel">
                 <div class="offcanvas-header">
-                    <h1 class="offcanvas-title">Heading</h1>
+                    <h1 class="offcanvas-title">Hi! There</h1>
                     <button type="button" class="btn-close" data-bs-dismiss="offcanvas"></button>
                 </div>
-                <div class="offcanvas-body">
-                    <p>Some text lorem ipsum.</p>
-                    <p>Some text lorem ipsum.</p>
-                    <p>Some text lorem ipsum.</p>
-                    <button class="btn btn-secondary" type="button">A Button</button>
+                <div class="offcanvas-body" id="rose-white">
+                    <p><a href="#">Home</a></p>
+                    <p><a href="#about">About</a></p>
+                    <p><a href="#">Feedback</a></p>
+                    <p><a href="#contacts">Contacts</a></p>
                 </div>
             </div>
 
