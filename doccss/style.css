@@ -93,6 +93,14 @@ nav ul {
     animation-fill-mode: forwards;
 }
 
+.s-col {
+    animation-name: slide-col;
+    animation-timing-function: ease-out;
+    animation-duration: 0.5s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+
 @keyframes slide {
     from {
         left: 30vw;
@@ -100,6 +108,21 @@ nav ul {
     to {
         left: 0;
     }
+}
+
+@keyframes slide-col {
+    from {
+        top: 30vh
+    }
+    to {
+        top: 0;
+    }
+}
+
+.yo-yo {
+    text-align: center;
+    margin-top: 5vh;
+    position: relative;
 }
 
 nav ul li {
