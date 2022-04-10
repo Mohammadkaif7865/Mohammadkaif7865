@@ -73,13 +73,13 @@
 
                             <!-- Modal body -->
                             <div class="modal-body">
-                                <form action="ask.js">
+                                <form method="POST" action="http://localhost:7800/client">
                                     <label for="#q-ner-name">Name:</label>
-                                    <input type="text" style="padding: 5px;width:90%; font-size:12px; margin-top: 3px;" id="q-ner-name" placeholder="Enter your name">
+                                    <input type="text" style="padding: 5px;width:90%; font-size:12px; margin-top: 3px;" name="name" id="q-ner-name" placeholder="Enter your name">
                                     <label for="#q-ner-email">E-mail:</label>
-                                    <input type="text" style="padding: 5px;width:90%; font-size:12px; margin-top: 3px;" id="q-ner-email" placeholder="Enter your email">
+                                    <input type="text" name="email" style="padding: 5px;width:90%; font-size:12px; margin-top: 3px;" id="q-ner-email" placeholder="Enter your email">
                                     <label for="#my-dm">Message:</label>
-                                    <textarea name="question" style="padding: 5px;width:85%; font-size:12px; margin-top: 3px;" id="my-dm" cols="30" rows="5" placeholder="type your text here" style="padding: 10px;"></textarea>
+                                    <textarea name="text" name="text" style="padding: 5px;width:85%; font-size:12px; margin-top: 3px;" id="my-dm" cols="30" rows="5" placeholder="type your text here" style="padding: 10px;"></textarea>
                                     <button type="submit" class="btn btn-primary">send</button>
                                 </form>
                             </div>
