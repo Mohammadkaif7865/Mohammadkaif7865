@@ -1,16 +1,8 @@
 {
-  "client": [
-    {
-      "name": "Yashmin",
-      "email": "moohammadkaif051197@gmail.com",
-      "text": "dgfsdhdj",
-      "id": 1
-    },
-    {
-      "name": "eehfgj",
-      "email": "dfhrgjytk",
-      "text": "dgfsdhdjwrhyetjkrukjdftsdturtjudtryihjdgstyirykj",
-      "id": 2
-    }
-  ]
+    "client": [{
+        "name": "monu",
+        "email": "yashmin1408@gmail.com",
+        "text": "come to me you should know that there is many things to explore",
+        "id": 1
+    }]
 }

@@ -203,8 +203,8 @@ nav ul li a {
 .slide-down-2 {
     animation-name: slide-down-2;
     animation-timing-function: ease-out;
-    animation-duration: 0.5s;
-    animation-iteration-count: 1;
+    animation-duration: 30s;
+    animation-iteration-count: infinite;
     animation-fill-mode: backwards;
 }
 
@@ -219,11 +219,20 @@ nav ul li a {
 }
 
 @keyframes slide-down-2 {
-    from {
-        top: 20vw;
+    0% {
+        top: -20vw;
     }
-    to {
+    25% {
         top: 0;
+    }
+    50% {
+        top: -10vw;
+    }
+    75% {
+        top: 0;
+    }
+    100% {
+        top: -20vw;
     }
 }
 
