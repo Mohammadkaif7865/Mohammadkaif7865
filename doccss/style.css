@@ -307,6 +307,20 @@ a {
     border-radius: 40px;
 }
 
+.like {
+    width: 100%;
+    display: block;
+    text-align: center;
+    font-size: calc(15px + 1vw);
+}
+
+#like {
+    cursor: pointer;
+    font-size: calc(15px + 4vw);
+    font-size: 5vw;
+    float: center;
+}
+
 .foot-ele {
     display: flex;
     margin: auto;
