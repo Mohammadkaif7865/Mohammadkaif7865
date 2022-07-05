@@ -25,7 +25,7 @@ Languages and Tools:
 
 ![](https://activity-graph.herokuapp.com/graph?username=Mohammadkaif7865&theme=react-dark&area=true)
 [![GitHub Streak](https://github-readme-streak-stats.herokuapp.com/?user=Mohammadkaif7865)](https://git.io/streak-stats)
-<p align="center"> <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Mohammadkaif7865&hide=TeX&layout=compact" alt="MohammadKaif" />
+<p align="center"> <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Mohammadkaif7865&hide=TeX&layout=compact" alt="MohammadKaif" /></p>
 
 <!--
 **Mohammadkaif7865/Mohammadkaif7865** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
