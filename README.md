@@ -1,4 +1,4 @@
-### Hi Developers 👋
+### Hi Developers <img src="https://raw.githubusercontent.com/aemmadi/aemmadi/master/wave.gif" width="30">
 [![Linkedin Badge](https://img.shields.io/badge/-Mohammadkaif-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/aakash--01629954/)](https://www.linkedin.com/in/mohammad-kaif-99aaba1b9/)
 [![Website Badge](https://img.shields.io/badge/WebSite-Mohammadkaif-green)](https://mohammadkaif7865.github.io/Mohammadkaif7865/)
 [![Website Badge](https://img.shields.io/badge/StackOverflow-Mohammad%20kaif-yellow)](https://stackoverflow.com/users/14913364/mohammad-kaif)
@@ -8,8 +8,6 @@ Full Stack developer
 The crossover between design and programming has always been of interest to me, I've been lucky enough to work alongside some talented teams on a number of high profile websites. I have a wide range of skills that include back-end development using open source technologies (NodeJs, Python), design (working closely with designers), front-end development (React, Angular9, ReactJs, HTML5, CSS3, Javascript, Responsive, UX), Server Administrator(AWS, GCP, Azure),database(MongoDB,cassendra,Mysql), CI/CD(Docker, kubernetes)
 
 Visitors
-
-
 ![Visitor Count](https://profile-counter.glitch.me/Mohammadkaif7865/count.svg)
 
 <div>
