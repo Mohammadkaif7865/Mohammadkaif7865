@@ -1,4 +1,4 @@
-### Hi Developers <img src="https://raw.githubusercontent.com/aemmadi/aemmadi/master/wave.gif" width="50">
+###  <img src="https://raw.githubusercontent.com/aemmadi/aemmadi/master/wave.gif" width="50"> Hi Developers
 [![Linkedin Badge](https://img.shields.io/badge/-Mohammadkaif-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/aakash--01629954/)](https://www.linkedin.com/in/mohammad-kaif-99aaba1b9/)
 [![Website Badge](https://img.shields.io/badge/WebSite-Mohammadkaif-green)](https://mohammadkaif7865.github.io/Mohammadkaif7865/)
 [![Website Badge](https://img.shields.io/badge/StackOverflow-Mohammad%20kaif-yellow)](https://stackoverflow.com/users/14913364/mohammad-kaif)
