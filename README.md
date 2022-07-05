@@ -25,6 +25,9 @@ Languages and Tools:
 
 ![](https://activity-graph.herokuapp.com/graph?username=Mohammadkaif7865&theme=react-dark&area=true)
 <p align="center"><img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Mohammadkaif7865&hide=TeX&layout=compact" alt="MohammadKaif" /> <img src="https://github-readme-streak-stats.herokuapp.com/?user=Mohammadkaif7865" alt="MohammadKaif" /></p>
+<div align="center">
+    <img src="https://github-readme-stats.vercel.app/api?username=Mohammadkaif7865&show_icons=true&theme=dark" alt="GitHub Activity">
+</div>
 
 
 <!--
