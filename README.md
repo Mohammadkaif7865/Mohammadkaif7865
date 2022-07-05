@@ -2,7 +2,7 @@
 [![Linkedin Badge](https://img.shields.io/badge/-Mohammadkaif-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/aakash--01629954/)](https://www.linkedin.com/in/mohammad-kaif-99aaba1b9/)
 [![Website Badge](https://img.shields.io/badge/WebSite-Mohammadkaif-green)](https://mohammadkaif7865.github.io/Mohammadkaif7865/)
 [![Website Badge](https://img.shields.io/badge/StackOverflow-Mohammad%20kaif-yellow)](https://stackoverflow.com/users/14913364/mohammad-kaif)
-<img align='right' src="https://media.giphy.com/media/M9gbBd9nbDrOTu1Mqx/giphy.gif" width="230">
+<img align='right' src="https://media.giphy.com/media/M9gbBd9nbDrOTu1Mqx/giphy.gif" width="250">
 
 I'm
 Full Stack developer
