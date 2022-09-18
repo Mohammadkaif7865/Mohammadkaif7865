@@ -17,6 +17,7 @@ The crossover between design and programming has always been of interest to me, 
 Visitor Count :
 
 ![Visitor Count](https://profile-counter.glitch.me/Mohammadkaif7865/count.svg)
+[![GitHub Streak](https://streak-stats.demolab.com/?user=DenverCoder1)](https://git.io/streak-stats)
 
 <div>
   <h4>🏆 Github Profile Trophy</h4>
