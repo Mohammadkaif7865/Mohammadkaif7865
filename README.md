@@ -34,7 +34,6 @@ Languages and Tools:
 <p align="center"><img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Mohammadkaif7865&hide=TeX&layout=compact" alt="MohammadKaif" /> <img src="https://github-readme-streak-stats.herokuapp.com/?user=Mohammadkaif7865" alt="MohammadKaif" /></p>
 <div align="center">
     <img src="https://github-readme-stats.vercel.app/api?username=Mohammadkaif7865&show_icons=true&theme=dark" alt="GitHub Activity">
-     <img src="https://streak-stats.demolab.com/?user=Mohammadkaif7865" alt="GitHub Activity">
 </div>
 
 
