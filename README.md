@@ -1,4 +1,3 @@
-
 [![Linkedin Badge](https://raw.githubusercontent.com/Platane/snk/output/github-contribution-grid-snake.svg)
  <h1 align="center"><img src="https://raw.githubusercontent.com/aemmadi/aemmadi/master/wave.gif" width="50">  Hi! Developers</h1>
 
