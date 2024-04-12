@@ -1,4 +1,4 @@
-[![Linkedin Badge](https://raw.githubusercontent.com/Platane/snk/output/github-contribution-grid-snake.svg)
+[![Linkedin Badge](https://raw.githubusercontent.com/Platane/snk/output/github-contribution-grid-snake.svg)]
  <h1 align="center"><img src="https://raw.githubusercontent.com/aemmadi/aemmadi/master/wave.gif" width="50">  Hi! Developers</h1>
 
 [![Linkedin Badge](https://img.shields.io/badge/-Mohammadkaif-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/aakash--01629954/)](https://www.linkedin.com/in/mohammad-kaif-99aaba1b9/)
